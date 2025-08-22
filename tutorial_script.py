@@ -33,7 +33,7 @@ data_dropped = data.dropna()
 print("\nData after dropping missing rows:\n", data_dropped.head())
 
 Sales)
-# ----------------------------
+
 print("\n=== 2. Linear Regression (Ice Cream Sales) ===")
 icecream_data = pd.DataFrame({
     "Temp": [20, 25, 30, 35, 40],
@@ -90,5 +90,6 @@ plt.title('Coffee Sales vs Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
 
