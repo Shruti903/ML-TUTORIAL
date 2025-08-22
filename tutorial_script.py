@@ -64,7 +64,7 @@ plt.grid(True)
 plt.show()
 
 # ----------------------------
-# 3. Cross-Validation (Coffee Sales)
+
 
 print("\n=== 3. Cross-Validation (Coffee Sales) ===")
 coffee_data = pd.DataFrame({
@@ -90,6 +90,7 @@ plt.title('Coffee Sales vs Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
 
 
