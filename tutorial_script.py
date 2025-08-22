@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_val_score
 
-#-----------
+
 print("=== 1. Data Preprocessing ===")
 data = pd.read_csv("tip.csv")
 print("\nOriginal Data:\n", data.head())
@@ -89,6 +89,7 @@ plt.title('Coffee Sales vs Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
 
 
