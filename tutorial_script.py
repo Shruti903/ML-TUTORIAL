@@ -32,8 +32,7 @@ print("\nScaled Features (first 5 rows):\n", X_scaled[:5])
 data_dropped = data.dropna()
 print("\nData after dropping missing rows:\n", data_dropped.head())
 
-# ----------------------------
-# 2. Linear Regression (Ice Cream Sales)
+Sales)
 # ----------------------------
 print("\n=== 2. Linear Regression (Ice Cream Sales) ===")
 icecream_data = pd.DataFrame({
@@ -91,4 +90,5 @@ plt.title('Coffee Sales vs Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
