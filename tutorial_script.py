@@ -63,7 +63,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-# ----------------------------
 
 
 print("\n=== 3. Cross-Validation (Coffee Sales) ===")
@@ -90,6 +89,7 @@ plt.title('Coffee Sales vs Temperature')
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
 
 
